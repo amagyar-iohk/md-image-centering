@@ -17,12 +17,11 @@ with picture
 <em>test</em>
 </p>
 
-using picture
+using text-align and img
 
-<p align="centeR">
-    <picture>
+<p style="text-align: center">
         <img src="image.png" alt="Docker logs directory" width="200"/>
-    </picture><br>
+    <br>
     <em>Test</em>
 </p>
 
