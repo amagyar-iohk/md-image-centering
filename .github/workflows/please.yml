@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print stuff
-        run: echo ${{ github.event.commit.message }}
+        run: echo ${{ github.event }}
 
       - name: Print stuff
         run: echo ${{ contains(github.event.commit.message, 'chore(release):') }}
